@@ -67,10 +67,36 @@ function Checkout() {
 
 <NativeSelectRoot size="sm" width="240px">
       <NativeSelectField placeholder="Select option"  onChange={handleChange}>
-      <option value="NY">India</option>       
-    <option value="NY">New York</option>
-    <option value="CA">California</option>
-    <option value="TX">Texas</option>
+            
+      <option value="AP">Andhra Pradesh</option>
+<option value="AR">Arunachal Pradesh</option>
+<option value="AS">Assam</option>
+<option value="BR">Bihar</option>
+<option value="CT">Chhattisgarh</option>
+<option value="GA">Goa</option>
+<option value="GJ">Gujarat</option>
+<option value="HR">Haryana</option>
+<option value="HP">Himachal Pradesh</option>
+<option value="JH">Jharkhand</option>
+<option value="KA">Karnataka</option>
+<option value="KL">Kerala</option>
+<option value="MP">Madhya Pradesh</option>
+<option value="MH">Maharashtra</option>
+<option value="MN">Manipur</option>
+<option value="ML">Meghalaya</option>
+<option value="MZ">Mizoram</option>
+<option value="NL">Nagaland</option>
+<option value="OD">Odisha</option>
+<option value="PB">Punjab</option>
+<option value="RJ">Rajasthan</option>
+<option value="SK">Sikkim</option>
+<option value="TN">Tamil Nadu</option>
+<option value="TG">Telangana</option>
+<option value="TR">Tripura</option>
+<option value="UP">Uttar Pradesh</option>
+<option value="UK">Uttarakhand</option>
+<option value="WB">West Bengal</option>
+
       </NativeSelectField>
     
     </NativeSelectRoot>
