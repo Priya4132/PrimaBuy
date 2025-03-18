@@ -15,7 +15,7 @@ const Navbar = () => {
      };
  
   return (
-    <Flex justifyContent={"space-around"} bg={"blue.200"} p={2}
+    <Flex justifyContent={"space-around"} bg={"blue.600"} color={"white"} p={2}
     >
        <Link to="/" >PrimaBuy</Link> 
        {/* <Link to="/">Home</Link>  */}
