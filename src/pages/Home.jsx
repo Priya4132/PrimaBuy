@@ -10,22 +10,19 @@ const Home = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate(); 
 
-    const handleLogout = () => {
-        dispatch(logout());
-        navigate("/"); // Redirect to home after logout
-    };
+    // const handleLogout = () => {
+    //     dispatch(logout());
+    //     navigate("/"); // Redirect to home after logout
+    // };
 
     return (
       <>
       
         <div>
-            {userId ? (
+            {/* {userId && (
                 <Button onClick={handleLogout} ml={"90%"}>Logout</Button>
-            ) : (
-                <Link to="/login">
-                    <Button>Login</Button>
-                </Link>
-            )}
+            ) 
+            } */}
         </div>
         <BannerPage /> 
         </>
