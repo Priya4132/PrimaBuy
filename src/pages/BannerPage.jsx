@@ -11,10 +11,10 @@ const BannerPage = () => {
   const navigate = useNavigate();
   const MotionHeading = motion(Heading);
   const handleStart=()=>{
-    if(!userId){
+    
       
         navigate("/products")
-    }
+    
    
   }
   return (
