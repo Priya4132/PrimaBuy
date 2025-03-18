@@ -13,7 +13,7 @@ const BannerPage = () => {
   const handleStart=()=>{
     if(!userId){
       
-        navigate("/home")
+        navigate("/products")
     }
    
   }
