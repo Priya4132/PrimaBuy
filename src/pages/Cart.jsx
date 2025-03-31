@@ -4,7 +4,7 @@ import { Box, Button, Heading, Text, VStack, HStack, Image,  Spacer } from "@cha
 import { useNavigate } from "react-router-dom";
 
 function Cart() {
-    const userId = useSelector((state) => state.auth.userId); // Get logged-in user ID
+    const userId1= useSelector((state) => state.auth.userId); // Get logged-in user ID
     const cart = useSelector((state) => state.cart.cart.filter(item => item.userId === userId));
     const dispatch = useDispatch();
     const navigate=useNavigate();
