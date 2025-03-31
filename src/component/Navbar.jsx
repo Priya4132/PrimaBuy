@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <Flex justifyContent={"space-around"} bg={"blue.600"} color={"white"} p={2}
     >
-       <Link to="/" >PrimaBuy</Link> 
+       <Link to="/" >Primabuy</Link> 
        {/* <Link to="/">Home</Link>  */}
      {
       userId? (<Link><Button onClick={handleLogout}> Logout</Button></Link>):(<Link to="/login">Login</Link> )
